@@ -131,7 +131,9 @@ Steps to run floorplan-
 
 1)![Image](https://github.com/user-attachments/assets/286b283c-65eb-46f7-86b1-7dc6c0869d66)
 
-2)
+2)![Image](https://github.com/user-attachments/assets/7f901351-9690-4c61-b43c-583f8801d769)
+
+3)
 
 
 
