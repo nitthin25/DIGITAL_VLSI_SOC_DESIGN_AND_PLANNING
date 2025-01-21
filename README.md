@@ -151,6 +151,26 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 
 2)![Image](https://github.com/user-attachments/assets/c1ae07a1-83d2-4a0e-b0b0-73867e3f9072)
 
+Placement and Routing-
+1) Bind netlist with physical cells
+
+The physical cells are rectangular in shape and not in their original shape
+
+All blocks are present in the library where it also has additional information about the cells
+
+The cells can come in various areas based on the resistance and speed the user wants.
+
+2) Placement
+
+We have a floorplane with shapes and sizzes of cells in netlist
+
+We have to place the cells on the floorplan in the optimized manner.
+
+To reduce the dropping of voltage, we also use multiple buffers to regenerate the signal.
+
+
+
+
 
 
 
