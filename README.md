@@ -147,7 +147,9 @@ cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/29-12
 Command to start the floorplan file in magic tool
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
 
-1)
+1)![Image](https://github.com/user-attachments/assets/f8be3560-270e-4680-8746-d12125cf1ec6)
+
+2)
 
 
 
