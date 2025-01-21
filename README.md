@@ -170,6 +170,45 @@ To reduce the dropping of voltage, we also use multiple buffers to regenerate th
 ![Image](https://github.com/user-attachments/assets/28fa1313-03b7-4080-ad3b-0f16ff78d7a0)
 
 
+cell design flow-
+
+Inputs For design flow to work, it should be inputted with PDKs, DRC and LVS Rules, SPICE Models, Library and user defined specifications
+
+Design Steps
+
+Circuit Design : Implementation of the design
+Layout Design : Form the layout of the design
+Characterization
+Outputs CDL(Circuit Description Language), GDSII, LEF, extracted spice netlist
+
+Characterizations
+Read model file
+Read extracted spice list
+Recognize behaviour of cell
+Read subcircuit of cell
+Attach necessary power sources
+Apply stimulus(input)
+Provide output capacitance
+Provide necessary simulation commands
+Timing Characterization
+** Timing Threshold Definations**
+
+Slew low rise threshold: 20% of supply voltage in rising output
+Slew high rise threshold: 80% of supply voltage in rising output
+Slew low fall threshold: 20% of supply voltage in falling output
+Slew high fall threshold: 80% of supply voltage in falling output
+input rise threshold: 50% of input while rising
+input falling threshold: 50% of input while falling
+output rising threshold: 50% of output while rising
+output falling threshold: 50% of output while falling
+
+
+Day 3- Design library cell using Magic Layout and ngspice
+
+
+
+
+
 
 
 
