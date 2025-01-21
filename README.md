@@ -129,6 +129,10 @@ Power planning is a vital aspect of integrated circuit (IC) design, ensuring eff
 
 Steps to run floorplan-
 
+1)![Image](https://github.com/user-attachments/assets/286b283c-65eb-46f7-86b1-7dc6c0869d66)
+
+2)
+
 
 
 
