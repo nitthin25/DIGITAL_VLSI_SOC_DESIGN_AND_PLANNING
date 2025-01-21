@@ -137,7 +137,7 @@ run_floorplan
 
 3)![Image](https://github.com/user-attachments/assets/e184a037-6f68-4261-a3c7-50c556d3d8d0)
 
-4)![Image](https://github.com/user-attachments/assets/0cd84e43-62a1-4895-b43f-b3b330dc6075)
+4)
 
 steps to run placements-
 
