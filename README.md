@@ -127,6 +127,10 @@ Pin placement in physical design is a crucial aspect that directly influences th
 Power Planning
 Power planning is a vital aspect of integrated circuit (IC) design, ensuring efficient power delivery, minimizing power consumption, and maintaining the chip’s performance and reliability. It involves designing a comprehensive power distribution network (PDN) that effectively distributes power across the chip while minimizing voltage drops and noise. A key component of power distribution is the power mesh, which is a network of metal layers that form the power grid, connecting the power (VDD) and ground (VSS) pins to all parts of the chip. The power mesh ensures that power is delivered evenly to all modules, balancing the power distribution and reducing the risk of localized voltage fluctuations. In addition to the power mesh, the grid system is composed of horizontal and vertical metal layers, which create a structure for the PDN. The grid is designed to handle the current load and maintain a stable voltage level across the chip.
 
+Steps to run floorplan-
+
+
+
 
 
 
