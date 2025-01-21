@@ -46,6 +46,7 @@ openlane flow-
 ![Image](https://github.com/user-attachments/assets/d810fe92-34ca-4d27-9556-40bde7635f88)
 
 running synthesis-
+![Image](https://github.com/user-attachments/assets/ccaa7311-61b4-464f-bb32-56b4705c3613)
 
 
 
