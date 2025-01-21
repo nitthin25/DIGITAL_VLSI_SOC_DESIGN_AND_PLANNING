@@ -205,6 +205,16 @@ output falling threshold: 50% of output while falling
 
 Day 3- Design library cell using Magic Layout and ngspice
 
+IO Placer Revision in OpenLANE-
+
+bash$ set ::env(FP_IO_MODE) 2
+
+This command switches the IO placement to mode 2, which places the input-output pins based on a different algorithm, often stacking them one over the other rather than maintaining equidistant spacing. It utilizes a technique such as the Hungarian algorithm, which aims to optimize pin placement based on various factors like signal timing, congestion, and layout constraints.
+
+SPICE Deck Creation for CMOS Inverter-
+
+
+
 
 
 
