@@ -149,7 +149,7 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 
 1)![Image](https://github.com/user-attachments/assets/f8be3560-270e-4680-8746-d12125cf1ec6)
 
-2)
+2)![Image](https://github.com/user-attachments/assets/c1ae07a1-83d2-4a0e-b0b0-73867e3f9072)
 
 
 
