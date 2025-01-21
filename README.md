@@ -35,3 +35,14 @@ The ASIC flow's main goal is to produce a clean GDSII with no human intervention
 
 ![Image](https://github.com/user-attachments/assets/8b5402e5-b0d3-451d-a894-10e8f24b96d9)
 
+Get familiar to open-source EDA tools-
+
+To get into OpenLANE flow we have to set our directory to
+cd /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane
+
+INVOKING OPENLANE FLOW,RUNNING SYNTHESIS,FLOP RATIO
+
+openlane flow-
+
+
+
