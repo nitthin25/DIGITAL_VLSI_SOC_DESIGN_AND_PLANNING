@@ -245,6 +245,9 @@ Vm is the point on the graph where:
 
 𝑉in=Vout=𝑉𝑚
 
+![Image](https://github.com/user-attachments/assets/4acc421f-fe6c-43de-8da8-da2ad7dccda4)
+
+
 
 
 
