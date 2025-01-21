@@ -213,6 +213,40 @@ This command switches the IO placement to mode 2, which places the input-output 
 
 SPICE Deck Creation for CMOS Inverter-
 
+![Image](https://github.com/user-attachments/assets/cb837d76-92cf-41fe-9866-548c4e0fa9f6)
+
+Threshold Voltage-
+
+In CMOS (Complementary Metal-Oxide-Semiconductor) technology, the switching threshold (Vm) is one of the most important parameters for determining the transition point between the logical "0" and "1" in a CMOS inverter. Graphically, Vm corresponds to the point where the input voltage (Vin) is equal to the output voltage (Vout), which typically occurs at the middle of the inverter’s DC transfer characteristic curve. Understanding the Graphical Behavior of a CMOS Inverter
+
+A CMOS inverter’s DC transfer characteristic graph is a plot of the output voltage (Vout) versus the input voltage (Vin). The typical curve for a CMOS inverter is an S-shaped curve, showing the following key features:
+
+When Vin is low (0V):
+
+The NMOS transistor is turned off, and the PMOS transistor is turned on.
+
+The output voltage (Vout) is high (VDD).
+
+When Vin is high (VDD):
+
+The PMOS transistor is turned off, and the NMOS transistor is turned on.
+
+The output voltage (Vout) is low (0V).
+
+Transition Region:
+
+In the middle of the curve, where Vin changes from low to high (0 to VDD), there is a region of transition. Here, both PMOS and NMOS transistors are partially turned on, and the output voltage (Vout) is not fully high or low. This region is crucial for defining the switching threshold (Vm).
+
+Graphical Representation of Switching Threshold (Vm)
+
+The switching threshold (Vm) occurs at the point on the curve where the output voltage (Vout) is equal to the input voltage (Vin). This is typically at the midpoint of the transition region. In an ideal CMOS inverter, the Vm is usually around VDD/2. However, it can vary slightly due to factors like process variation, temperature, and the specific characteristics of the PMOS and NMOS transistors.
+
+Vm is the point on the graph where:
+
+𝑉in=Vout=𝑉𝑚
+
+
+
 
 
 
