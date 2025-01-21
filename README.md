@@ -43,6 +43,10 @@ cd /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane
 INVOKING OPENLANE FLOW,RUNNING SYNTHESIS,FLOP RATIO
 
 openlane flow-
+![Image](https://github.com/user-attachments/assets/d810fe92-34ca-4d27-9556-40bde7635f88)
+
+running synthesis-
+
 
 
 
