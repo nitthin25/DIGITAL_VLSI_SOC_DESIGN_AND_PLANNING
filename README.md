@@ -129,15 +129,19 @@ Power planning is a vital aspect of integrated circuit (IC) design, ensuring eff
 
 Steps to run floorplan-
 
-1)![Image](https://github.com/user-attachments/assets/286b283c-65eb-46f7-86b1-7dc6c0869d66)
+run_floorplan
 
-2)![Image](https://github.com/user-attachments/assets/7f901351-9690-4c61-b43c-583f8801d769)
+1)![Image](https://github.com/user-attachments/assets/7f901351-9690-4c61-b43c-583f8801d769)
 
-3)![Image](https://github.com/user-attachments/assets/109a7eea-270c-4b92-9900-c67dc94b9665)
+2)![Image](https://github.com/user-attachments/assets/109a7eea-270c-4b92-9900-c67dc94b9665)
 
-4)![Image](https://github.com/user-attachments/assets/e184a037-6f68-4261-a3c7-50c556d3d8d0)
+3)![Image](https://github.com/user-attachments/assets/e184a037-6f68-4261-a3c7-50c556d3d8d0)
 
-5)
+4)![Image](https://github.com/user-attachments/assets/0cd84e43-62a1-4895-b43f-b3b330dc6075)
+
+steps to run placements-
+
+1)
 
 
 
