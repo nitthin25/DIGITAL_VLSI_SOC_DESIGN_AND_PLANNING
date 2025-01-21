@@ -52,7 +52,9 @@ flop ratio-
 ![Image](https://github.com/user-attachments/assets/ec7ee68b-ae2a-4f11-a833-5cccdf8de50c)
 
 dfxtp_2 - 1613
+
 no.of.cells - 14876
+
 ratio= 10.84296
 
 
