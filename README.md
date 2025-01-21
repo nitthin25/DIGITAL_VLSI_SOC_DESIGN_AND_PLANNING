@@ -137,9 +137,15 @@ run_floorplan
 
 3)![Image](https://github.com/user-attachments/assets/e184a037-6f68-4261-a3c7-50c556d3d8d0)
 
-4)
+4)![Image](https://github.com/user-attachments/assets/e23d5b93-b9ca-4d60-9407-42ad360e514f)
 
 steps to run placements-
+
+Change the directory to
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/29-12_09-40/results/placement/
+
+Command to start the floorplan file in magic tool
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
 
 1)
 
