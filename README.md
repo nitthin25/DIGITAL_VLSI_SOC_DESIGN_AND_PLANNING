@@ -32,3 +32,4 @@ OpenLANE-
 OpenLANE started as an Open-Source Flow for true Open Source Tape-Out Experiment. They use the striVe family of open everythings.
 
 The ASIC flow's main goal is to produce a clean GDSII with no human intervention. The operation has 2 modes namely autonomous and interactive.
+![Image](https://github.com/user-attachments/assets/8b5402e5-b0d3-451d-a894-10e8f24b96d9)
