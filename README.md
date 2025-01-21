@@ -48,6 +48,14 @@ openlane flow-
 running synthesis-
 ![Image](https://github.com/user-attachments/assets/ccaa7311-61b4-464f-bb32-56b4705c3613)
 
+flop ratio-
+![Image](https://github.com/user-attachments/assets/ec7ee68b-ae2a-4f11-a833-5cccdf8de50c)
+
+dfxtp_2 - 1613
+no.of.cells - 14876
+ratio= 10.84296
+
+
 
 
 
