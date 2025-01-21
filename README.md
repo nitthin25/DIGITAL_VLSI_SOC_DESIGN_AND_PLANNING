@@ -12,7 +12,6 @@ For more information on the SkyWater PDK, you can visit github.com/google/skywat
 
 Simplified RTL2GDS flow-
 The flow starts with Synthesis moving on to Floorplanning/Powerplanning, Placement, Clock Tree Synthesis, Routing and then ending with Static Timing Analysis.
-![Image](https://github.com/user-attachments/assets/3790c1c2-4e92-45be-add7-f30632cc6a1a)
 Synthesis The synthesis converts the RTL to a circuit out of components from the standard cell library. There are multiple different standard cells. Standard cells of the same component can have different areas based on the use case.
 
 Floorplanning/PowerPlanning There are 2 types of Floorplanning namely Chip Foorplanning and Macro Floorplanning. Power planning works on the placement of power sources such as Vdd and ground.
@@ -167,6 +166,8 @@ We have a floorplane with shapes and sizzes of cells in netlist
 We have to place the cells on the floorplan in the optimized manner.
 
 To reduce the dropping of voltage, we also use multiple buffers to regenerate the signal.
+
+![Image](https://github.com/user-attachments/assets/28fa1313-03b7-4080-ad3b-0f16ff78d7a0)
 
 
 
