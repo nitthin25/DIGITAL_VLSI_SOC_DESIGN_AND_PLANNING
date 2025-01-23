@@ -423,6 +423,76 @@ echo $::env(SYNTH_DRIVING_CELL)
 Now that the design is prepped and ready, we can run synthesis using following command
 run_synthesis
 
+![Image](https://github.com/user-attachments/assets/838b6731-4579-4364-af76-d253bf926e91)
+
+
+
+we have to perform the OpenROAD timing analysis using the following commands-
+
+Checking the current value of 'CTS_CLK_BUFFER_LIST'
+echo $::env(CTS_CLK_BUFFER_LIST)
+
+Removing 'sky130_fd_sc_hd__clkbuf_1' from the list
+set ::env(CTS_CLK_BUFFER_LIST) [lreplace $::env(CTS_CLK_BUFFER_LIST) 0 0]
+
+Checking the updated value of 'CTS_CLK_BUFFER_LIST'
+echo $::env(CTS_CLK_BUFFER_LIST)
+
+Checking the current value of 'CURRENT_DEF'
+echo $::env(CURRENT_DEF)
+
+Setting the DEF file as the placement definition
+set ::env(CURRENT_DEF) /openLANE_flow/designs/picorv32a/runs/05-01_04-30/results/placement/picorv32a.placement.def
+
+Run Clock Tree Synthesis (CTS) again with the updated settings
+run_cts
+
+Checking the updated value of 'CTS_CLK_BUFFER_LIST'
+echo $::env(CTS_CLK_BUFFER_LIST)
+
+Launch OpenROAD for timing analysis
+openroad
+
+Read the LEF file for the design
+read_lef /openLANE_flow/designs/picorv32a/runs/05-01_04-30/tmp/merged.lef
+
+Read the DEF file after CTS
+read_def /openLANE_flow/designs/picorv32a/runs/05-01_04-30/results/cts/picorv32a.cts.def
+
+Create an OpenROAD database for the design
+write_db pico_cts1.db
+
+Load the created database in OpenROAD
+read_db pico_cts.db
+
+Read the netlist after CTS
+read_verilog /openLANE_flow/designs/picorv32a/runs/05-01_04-30/results/synthesis/picorv32a.synthesis_cts.v
+
+Read the Liberty file for the design
+read_liberty $::env(LIB_SYNTH_COMPLETE)
+
+Link the design with the Liberty file
+link_design picorv32a
+
+Read the custom SDC file for timing constraints
+read_sdc /openLANE_flow/designs/picorv32a/src/my_base.sdc
+
+Set all clocks as propagated clocks
+set_propagated_clock [all_clocks]
+
+Generate a custom timing report with min and max path delays
+report_checks -path_delay min_max -fields {slew trans net cap input_pins} -format full_clock_expanded -digits 4
+
+Report hold skew for the design
+report_clock_skew -hold
+
+Report setup skew for the design
+report_clock_skew -setup
+
+Exit OpenROAD and return to OpenLane flow
+exit
+
+
 
 
 
