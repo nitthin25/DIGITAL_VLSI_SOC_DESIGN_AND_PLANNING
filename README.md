@@ -534,6 +534,49 @@ The algorithm terminates once the target is reached, and the optimal routing pat
 
 ![Image](https://github.com/user-attachments/assets/2745d955-0826-4532-834f-053bcbecdb67)
 
+Design Rule Check-
+
+Design Rules for Physical Wires:
+
+Minimum Width of the Wire: Ensures that the width of a wire (or metal line) does not fall below a specified minimum value. If the wire is too thin, it may not be able to carry the required current, leading to reliability issues.
+
+Minimum Spacing Between Wires: This rule ensures that there is enough space between two adjacent wires to prevent short-circuiting. If wires are placed too close together, they may overlap, causing an electrical short.
+
+Minimum Pitch of the Wire: The pitch is the center-to-center distance between two consecutive wires. A smaller pitch allows more wires to be placed in the same area, increasing integration, but it also increases the chance of signal interference and crosstalk.
+
+Via Rules:
+
+4(a). Via Width: Defines the minimum size of the via (a metal connection between layers), ensuring that it is large enough to carry the current without resistance or reliability issues.
+
+4(b). Via Spacing: Ensures that vias are spaced apart sufficiently to avoid the risk of electrical shorts and maintain the integrity of the routing.
+
+Metal Layer Considerations:
+Metal Layer to Upper Metal Layer: To avoid signal shorts due to adjacent metal layers, it may be necessary to route a signal from one metal layer to another using a via. The design must ensure that the via rules are followed to prevent short-circuiting between metal layers.
+
+Signal Integrity:
+6(a). Minimum Width of the Metal Layers: To avoid signal degradation and ensure proper current carrying capability, the metal lines must have a sufficient width.
+
+6(b). Spacing Between Power and Ground Rails: Ensures that the distance between the power (VDD) and ground (VSS) rails is sufficient to prevent power grid-related failures, such as voltage droop or crosstalk.
+
+Key DRC Violations:
+Short Circuits: Occur when wires or metal layers are too close, resulting in unintended connections between signals, which can lead to malfunction.
+
+Open Circuits: Happen when there is insufficient connection between components, causing certain parts of the circuit to remain disconnected.
+
+Metal Overlaps: These occur when metal layers intersect inappropriately or extend too far, leading to potential shorts or manufacturing errors.
+
+Under/Over-Sized Vias: If vias are too small, they cannot carry sufficient current, while oversized vias can cause unnecessary capacitance and delays.
+
+PDN Generation-
+
+In OpenLANE flow, Power Distribution Network(PDN) is crucial as it helps the chip have proper power delivery to all cells within the chip.
+
+To execute PDN Generation, we have to use the following commands:
+
+We should do the whole process till run_cts.
+
+gen_pdn
+
 
 
 
