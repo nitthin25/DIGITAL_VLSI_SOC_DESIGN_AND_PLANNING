@@ -347,6 +347,9 @@ magic -d XR &
 
 ![Image](https://github.com/user-attachments/assets/df73028a-7521-4250-9976-0b4fa4b0b511)
 
+![Image](https://github.com/user-attachments/assets/3a725e8b-3d41-4deb-999a-ade0f786589c)
+
+
 
 
 
