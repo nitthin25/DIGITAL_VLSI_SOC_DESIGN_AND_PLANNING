@@ -494,6 +494,46 @@ exit
 
 
 
+Day 5- Final steps for RTL2GDS using triton route and openSTA
+
+Routing-
+
+Routing is a crucial step in the design process of VLSI circuits, responsible for creating the physical interconnections between various components (e.g., logic gates, flip-flops, and memory cells). The objective of routing is to establish a valid and efficient path for signals to travel between these components while adhering to design rules and avoiding obstacles. Routing algorithms take the source and target pins, typically located on the chip, and aim to find the most optimal path for the connection.
+
+Maze Routing and the Lee Algorithm
+Maze routing is one of the most fundamental methods for routing in VLSI design. The Lee algorithm is a widely used maze routing algorithm that efficiently solves the problem of finding the shortest path between two points in a grid-like structure, which is typical in VLSI layout design. The algorithm works well for both global and detailed routing, ensuring that the routing process adheres to constraints like spacing rules and layer restrictions.
+
+Working of Lee's Algorithm:
+Grid Setup:
+A grid, similar to the layout created during cell customization, is established where each point corresponds to a potential location for routing.
+
+Obstacles, such as existing metal layers or other components, are identified on the grid as "blocked" regions where routing cannot pass.
+
+Start and Target Points:
+The source (starting point) and target (destination point) are marked on the grid. The goal is to find the shortest possible path between these two points.
+
+Labeling:
+Lee's algorithm works by labeling the neighboring cells around the source point. Initially, the source point is labeled as 0 (starting point), and its immediate neighbors are assigned the value 1. The algorithm then propagates through the grid, incrementing the values of neighboring cells (e.g., 2, 3, 4, etc.) as it moves further away from the source.
+
+The algorithm continues this process until it reaches the target, incrementing the distance labels along the way.
+
+Pathfinding:
+Once the algorithm reaches the target, it traces the path from the target back to the source by following the cells with the lowest labels.
+
+This path is the shortest possible route between the source and target.
+
+Path Shape:
+The algorithm can produce different types of paths, such as L-shaped or zigzag-shaped routes. Lee's algorithm tends to prioritize L-shaped paths when they are available, as they typically represent more efficient routing with fewer turns.
+
+If L-shaped paths are unavailable due to obstacles or other constraints, the algorithm may resort to zigzag paths.
+
+Termination:
+The algorithm terminates once the target is reached, and the optimal routing path is identified. If no path exists (due to obstacles blocking all possible routes), the algorithm will indicate that no solution is found.
+
+
+
+
+
 
 
 
