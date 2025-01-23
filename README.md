@@ -349,6 +349,14 @@ magic -d XR &
 
 ![Image](https://github.com/user-attachments/assets/3a725e8b-3d41-4deb-999a-ade0f786589c)
 
+![Image](https://github.com/user-attachments/assets/097d03c7-6573-439a-94a2-c0a4dd2ea065)
+
+![Image](https://github.com/user-attachments/assets/18ccee8f-529f-4d27-934f-37bc741e91e5)
+
+![Image](https://github.com/user-attachments/assets/0ee2a9c9-6a86-4bbf-97d8-c106c381ed79)
+
+![Image](https://github.com/user-attachments/assets/f2993cf0-523c-4296-b990-c19dc8b50a7d)
+
 
 
 
