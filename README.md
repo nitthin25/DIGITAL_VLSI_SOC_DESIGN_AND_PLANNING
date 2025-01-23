@@ -530,6 +530,11 @@ If L-shaped paths are unavailable due to obstacles or other constraints, the alg
 Termination:
 The algorithm terminates once the target is reached, and the optimal routing path is identified. If no path exists (due to obstacles blocking all possible routes), the algorithm will indicate that no solution is found.
 
+![Image](https://github.com/user-attachments/assets/1414dd9e-525c-409e-b612-37286316c79f)
+
+![Image](https://github.com/user-attachments/assets/2745d955-0826-4532-834f-053bcbecdb67)
+
+
 
 
 
