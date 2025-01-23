@@ -345,6 +345,7 @@ gvim .magicrc
 Command to invoke the magic tool
 magic -d XR &
 
+![Image](https://github.com/user-attachments/assets/df73028a-7521-4250-9976-0b4fa4b0b511)
 
 
 
