@@ -387,6 +387,12 @@ grid 0.46um 0.34um 0.23um 0.17um
 
 ![Image](https://github.com/user-attachments/assets/ebfc4502-957e-415d-ac00-aa6fd6c636ad)
 
+Next, we will generate a lef file from the layout
+
+lef write
+
+
+
 
 
 
