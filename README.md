@@ -316,6 +316,9 @@ ext2spice cthresh 0 rthresh 0
 
 ext2spice
 
+![Image](https://github.com/user-attachments/assets/01e1dab0-98a3-479f-9bde-27e11ba28e2c)
+
+
 
 
 
