@@ -296,6 +296,10 @@ cp /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/
 Open the inverter layout
 magic -T sky130A.tech sky130_inv.mag &
 
+![Image](https://github.com/user-attachments/assets/f2d7cb90-50d0-47fb-af40-61bb2d6232b3)
+
+
+
 
 
 
