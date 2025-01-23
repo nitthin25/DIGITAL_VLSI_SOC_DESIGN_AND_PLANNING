@@ -298,6 +298,10 @@ magic -T sky130A.tech sky130_inv.mag &
 
 ![Image](https://github.com/user-attachments/assets/f2d7cb90-50d0-47fb-af40-61bb2d6232b3)
 
+![Image](https://github.com/user-attachments/assets/e7d728b1-b7b7-4e06-a2a5-8c909af18f17)
+
+
+
 
 
 
