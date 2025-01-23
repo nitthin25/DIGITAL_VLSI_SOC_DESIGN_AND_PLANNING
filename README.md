@@ -362,6 +362,30 @@ Change the sky130A.tech file using the command gvim sky130A.tech in the followin
 ![Image](https://github.com/user-attachments/assets/f2993cf0-523c-4296-b990-c19dc8b50a7d)
 
 
+Day4 - Pre-Layout timing analysis and importance of good clock tree synthesis
+
+
+Converting grid info to track info-
+
+We use this process for ease in the process of physical design
+
+Follow the steps to convert the grid info to track info:
+
+#Change directory to vsdstdcelldesign
+cd Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign
+
+#Open the layout of inverter through magic
+magic -T sky130A.tech sky130_inv.mag &
+
+To find the grid info,
+
+help grid
+
+grid 0.46um 0.34um 0.23um 0.17um
+
+
+
+
 
 
 
