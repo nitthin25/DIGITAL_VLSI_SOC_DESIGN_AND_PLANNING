@@ -391,6 +391,9 @@ Next, we will generate a lef file from the layout
 
 lef write
 
+![Image](https://github.com/user-attachments/assets/fd52b1be-777f-4a66-8659-debe5994225f)
+
+
 
 
 
