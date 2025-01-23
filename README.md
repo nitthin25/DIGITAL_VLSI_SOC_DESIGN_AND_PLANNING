@@ -321,6 +321,33 @@ ext2spice
 ![Image](https://github.com/user-attachments/assets/526d8ddb-4774-4708-8816-a1b4c617f69a)
 
 
+Using the Magic tool for Sky130 Tech File-
+
+To invoke the magic tool, follow the following steps:
+
+Change the directory to home directory
+cd
+
+Command to download the lab files
+wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+
+tar xfz drc_tests.tgz
+
+Change to the drc_tests directory
+cd drc_tests
+
+Command to list the contents of directory
+ls -al
+
+Command to view .magicrc file
+gvim .magicrc
+
+Command to invoke the magic tool
+magic -d XR &
+
+
+
+
 
 
 
