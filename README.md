@@ -247,6 +247,58 @@ Vm is the point on the graph where:
 
 ![Image](https://github.com/user-attachments/assets/4acc421f-fe6c-43de-8da8-da2ad7dccda4)
 
+Static and Dynamic Simulation of CMOS Inverter-
+Key observations in static simulation:
+
+Switching Threshold (Vm): The point where the inverter changes its output logic level from high to low (or vice versa). This is the critical point in the S-curve.
+
+Noise Margin: The region around the switching threshold defines the noise margin, which is a measure of how much noise can be tolerated on the input without causing errors in the output.
+
+Dynamic Simulation (Transient Analysis)
+In dynamic simulation, we analyze the behavior of the CMOS inverter in response to time-varying inputs, typically involving pulses or square wave inputs. This simulation helps to determine propagation delay and transition times (rise and fall times) during the inverter’s switching operation.
+
+Step-by-step simulation: The input voltage (Vin) is typically applied as a square wave or pulse signal that varies with time. In this type of simulation, we are interested in how the inverter responds to rapid changes in input, especially when the input signal is switching from low to high or vice versa.
+
+Propagation delay: This is the time it takes for the output to transition from one logic state to another after the input has crossed a threshold (either from low to high or high to low). This is measured as the time between when the input crosses 50% of its transition and when the output reaches 50% of its corresponding transition.
+
+Rise and fall time: These are the times it takes for the output to transition from 10% to 90% (rise) or from 90% to 10% (fall) of the supply voltage (VDD). These times are crucial for determining the speed at which the CMOS inverter can switch.
+
+Key observations in dynamic simulation:
+
+Rise Transition Time: The time it takes for the output to go from 10% to 90% of its final high state (VDD).
+
+Fall Transition Time: The time it takes for the output to go from 90% to 10% of its final low state (0V).
+
+Propagation Delay: The time delay from when the input signal reaches 50% of its final value to when the output reaches 50% of its final value.
+
+Git cloning vsdstdcelldesign-
+
+To clone the vsdstdcelldesign into your directory,
+
+Go to openelane directory
+cd Desktop/work/tools/openlane_working_dir/openlane
+
+Clone the repository
+git clone https://github.com/nickson-jose/vsdstdcelldesign
+
+This repository contains all the necessary information to build and run the OpenLane flow, which performs a full ASIC implementation from RTL to GDSII.
+
+It includes the procedure to create a custom LEF file and also contains the steps to integrate the custom LEF file into the OpenLANE flow
+
+Next, we have to open the inverter layout thriugh the Magic Tool
+
+Go to the vsdstdcelldesign directory
+cd vsdstdcelldesign
+
+copy the magic tech file
+cp /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech .
+
+Open the inverter layout
+magic -T sky130A.tech sky130_inv.mag &
+
+
+
+
 
 
 
