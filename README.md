@@ -306,6 +306,18 @@ magic -T sky130A.tech sky130_inv.mag &
 
 ![Image](https://github.com/user-attachments/assets/05ed2f30-18f2-4c22-a2af-2edb46b7f68b)
 
+Spice Extraction of Inverter in magic -
+
+Use the following commands to extract the spice file of the custom inverter layout
+
+extract all
+
+ext2spice cthresh 0 rthresh 0
+
+ext2spice
+
+
+
 
 
 
