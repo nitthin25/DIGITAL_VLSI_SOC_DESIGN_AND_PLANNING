@@ -393,6 +393,38 @@ lef write
 
 ![Image](https://github.com/user-attachments/assets/fd52b1be-777f-4a66-8659-debe5994225f)
 
+Make the following changes to reduce the wns(worst net slack) which is coming negative
+
+Now once again we have to prep design so as to update variables
+prep -design picorv32a -tag 24-03_10-03 -overwrite
+
+Addiitional commands to include newly added lef to openlane flow merged.lef
+set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+add_lefs -src $lefs
+
+Command to display current value of variable SYNTH_STRATEGY
+echo $::env(SYNTH_STRATEGY)
+
+Command to set new value for SYNTH_STRATEGY
+set ::env(SYNTH_STRATEGY) "DELAY 3"
+
+Command to display current value of variable SYNTH_BUFFERING to check whether it's enabled
+echo $::env(SYNTH_BUFFERING)
+
+Command to display current value of variable SYNTH_SIZING
+echo $::env(SYNTH_SIZING)
+
+Command to set new value for SYNTH_SIZING
+set ::env(SYNTH_SIZING) 1
+
+Command to display current value of variable SYNTH_DRIVING_CELL to check whether it's the proper cell or not
+echo $::env(SYNTH_DRIVING_CELL)
+
+Now that the design is prepped and ready, we can run synthesis using following command
+run_synthesis
+
+
+
 
 
 
